@@ -14,15 +14,16 @@ body {
 .slider-container {
   position: relative;
   overflow: hidden;
-  width: 100 vw;
+  width: 100vw;
   height: 100vh;
 }
 .left-slide {
   height: 100%;
   width: 35%;
-  position: absolutr;
+  position: absolute;
   top: 0;
   left: 0;
+  transition: transform 0.5s ease-in-out;
 }
 .left-slide > div {
   height: 100%;
@@ -44,6 +45,7 @@ body {
   top: 0;
   left: 35%;
   width: 65%;
+  transition: transform 0.5s ease-in-out;
 }
 
 .right-slide > div {
